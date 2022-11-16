@@ -1,0 +1,54 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #777;
+    background-color: #343a40;
+    margin-top: -10px;
+  }
+  
+  .brand, .links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .brand .logo{
+    max-width: 200px;
+    margin-right: 0.6em;
+  }
+ 
+  
+  .links li{
+    margin-right: 1em;
+    list-style: none;
+  }
+  
+a{
+    text-decoration: none;
+    color: rgb(105, 102, 102);
+    cursor: pointer;
+}
+a:hover{
+    color:white;
+}
+  .links a{
+    padding: .1em .3em;
+  }
+ 
+
+  input,select,textarea{
+    width: 450px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  #linkBtn{
+    background-color: rgb(24, 70, 55);
+    padding: 5px;
+    color: white;
+  }
+
+  tr{
+    height: 40px;
+   
+  }
